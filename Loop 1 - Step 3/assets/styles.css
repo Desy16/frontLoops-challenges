@@ -17,7 +17,6 @@ html {
 
 body {
     min-height: 100vh;
-    /*overflow: hidden;*/
 }
 
 
@@ -32,12 +31,16 @@ body {
 
 .section-simpleWheels-wrapper {
     width: 36%;
+    height: 300px;
     max-width: 100%;
     background-color: #fff;
     border-radius: 4px;
-    /*text-align: center;*/
+    /*background-image: url(./img/bicycle.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    transform: translate(-50%, -50%);*/
     box-shadow: 0 3px 15px rgba(219, 153, 153, 0.35);  /*????*/
-
 }
 
 .simpleWheels-wrap {
@@ -59,7 +62,6 @@ body {
 .texte-simpleWheels {
     color: #b8c8d1;
     padding-top: 15px;
-    padding-bottom: 30px;
     width: 150%;
     line-height: 20px;
 }
@@ -80,14 +82,68 @@ body {
     border: 5px solid #b8c8d1;
 }*/
 
-
 .img-simpleWeels-account {
     cursor: pointer;
     margin: 5px 5px;
 }
 
+/*.simpleWheels-article-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 60px;
+    justify-content: center;
+    align-items: center;
+}
 
+.simpleWheels-item-article-wrapper {
+    
+}
+*/
+
+.item-article-wrap {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 60px;
+    list-style: none;
+    padding: 6px 50px;
+}
+
+.item-article-name {
+    display: inline-block;
+    padding: 0;
+    font-size: 15px;
+    color: #74777b;
+}
+
+.item-article-device-price,
+.item-article-device-price-dollar {
+    font-size: 18px;
+    font-weight: 700;
+    color: #433b32;
+}
+
+.item-article-device-price-dollar {
+    margin-left: 8px; 
+}
+
+.item-article-total {
+    font-size: 18px;
+    font-weight: 500;
+    color: #627181;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/*.bicycle-wrapper {
+    margin: 0 auto;
+    overflow: hidden;
+}
 
 .img-bicycle {
-    display: none;
-}
+    width: 35%;
+    height: 50%;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(35%, 20%);
+}*/
