@@ -1,0 +1,66 @@
+/*--------------------------*/
+/*BASICS CONFIGURATIONS*/
+/*------------------------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    min-height: 100vh;
+
+}
+
+
+/*-------MARK ZUCKERBERG-------*/
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #b6cadc;
+}
+
+.section-wrapper {
+    width: 25%;
+    height: 300px;
+    max-width: 100%;
+    box-shadow: 0 3px 15px rgba(146, 101, 101, 0.35);
+}
+
+.mark-wrap {
+    display: grid;
+    padding: 20px 20px;
+    background-color: #6a96d8;
+    grid-template-columns: auto 250px auto;
+}
+
+.title-mark-wrap {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+}
+
+.img-close {
+    width: 20px;
+    color: #c6d6f1;
+    margin-left: 5px;
+}
+
+.btn-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 5px 0;
+}
